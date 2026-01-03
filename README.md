@@ -1,18 +1,26 @@
 🚀 Contratos Inteligentes Gainovo
+
 📋 Contratos Implementados
-	1.	🪙 ARG (Activo Renta Gainovo)
+
+1.	🪙 ARG (Activo Renta Gainovo)
+
 Token principal del ecosistema Gainovo que representa derechos sobre una estrategia de Renta Dolarizada compuesta por renta variable cripto, Ganadería y bienes raíces.
+
 Características de Seguridad:
 ✅ Sistema Multi-Firma: Mínimo 3 propietarios, aprobación por consenso (2/3)
 ✅ Lista Blanca/Negra: Control de direcciones autorizadas/bloqueadas
 ✅ Mecanismo de Pausa: Congelación inmediata de transferencias por situacion critica de seguridad
 ✅ Rol de Emergencia: Respuesta rápida a situaciones críticas
 ✅ EIP-2612 Permit: Transacciones sin gas para mejor UX
+
 Funciones Principales:
 // Gestión multi-firma function proponerMintear(address destino, uint256 cantidad) function proponerQuemar(address destino, uint256 cantidad) function confirmarPropuesta(uint256 idPropuesta) function ejecutarPropuesta(uint256 idPropuesta)
 // Control de acceso function agregarAListaBlanca(address cuenta) // Solo gestores function agregarAListaNegra(address cuenta) // Solo gestores function pause() // Solo emergencia function unpause() // Solo emergencia
-	2.	⚡ GNT (Gainovo Trading)
+
+2.	⚡ GNT (Gainovo Trading)
+
 Token especializado para trading y arbitraje en exchanges descentralizados.
+
 Características Únicas:
 ✅ Supply Fijo: 5,000,000 tokens máximo
 ✅ Re-minting Controlado: Solo posible si se han quemado tokens previamente
