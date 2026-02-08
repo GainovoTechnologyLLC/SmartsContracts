@@ -109,7 +109,7 @@ Protección de Fondos para Usuarios:
 
 Cómo Funciona:
 
-1-Verificacion Facial
+1-Verificacion de Pregunta de Seguridad
 
 2-Usuario bloquea billetera con boton de emergencia irreversible
 
